@@ -18,4 +18,4 @@
    
 4. Change the password.
    
-5. Input all the necessary data in the library.
+5. Input all the necessary data to the library.
