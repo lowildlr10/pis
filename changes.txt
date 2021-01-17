@@ -1,0 +1,78 @@
+add
+assets images 
+- are_cs.png
+- supplies.png
+- cat.png
+- subcat.png
+
+change
+- access.php
+- inventory.php
+- system_libraries.php
+
+add
+- report_menu.php
+- reports_are.php
+- supplies.php
+
+-----------
+database
+-----------
+add 
+- tblitem_categories
+- tblitem_subcategories
+
+- tblpr_info - add column refID int --- reference to tbloffice_supplies
+
+change attribute for decimal to decimal point 2 rather than 0
+- tblbids_quotations 
+- tblpr_info
+- tblpo_details
+- tblinventory_items
+- tblcondemned
+- tblobrdv
+
+////--------- 09-03-2011
+change 
+- are.php
+- cs.php
+- reports_are.php
+
+///changes 09-0-2011
+database
+-tblinventory_items
+= add column date_received (transfer data date_received from tblinventory to tblinventory_items)
+
+files
+- pr_preview.php
+- are_info.php
+- are_op.php
+- cust_op.php
+- e_inv_info.php
+- e_inventory.php
+- e_preview.php
+- ris_op.php
+
+/////-----09-13-2011
+pr_preview.php
+dv.php
+obr.php
+epr_preview.php
+emp_obr.php
+emp_dv.php
+
+///----09-14-2011
+inspection.php
+abstract.php
+
+
+/////--10-11-2011
+transfer classID from tblinventory to tblinventory_items
+are.php
+are_op.php
+inv_items.php
+cs.php
+cs_op.php
+pr_preview.php
+epr_preview.php
+reports_are.php
