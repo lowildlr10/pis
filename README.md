@@ -16,4 +16,6 @@
    Password: admin
    ```
    
-4. Entry all necessary data in the library.
+4. Change the password.
+   
+5. Input all the necessary data in the library.
